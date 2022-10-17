@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+}
+#boardContainer {
+    display: flex;
+    justify-content: center;
+}
+#header {
+    display: flex;
+    justify-content: center;
+}
+#board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.btn {
+    background-color: lightgray;
+    color: blue;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 80px;
+    color:red;
+}
